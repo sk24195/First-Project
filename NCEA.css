@@ -1,0 +1,35 @@
+.page-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-introduction {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+.invisible-items {
+    opacity: 0%;
+}
+
+#nav-content {
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nav-link-color{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+}
