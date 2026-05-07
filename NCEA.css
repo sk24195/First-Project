@@ -6,6 +6,7 @@
 #header-content {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 #header-introduction {
@@ -22,8 +23,8 @@
     display: flex;
     justify-content: flex-start;
     background-color: gray;
-    padding: 0px;
     list-style-type: none;
+    margin: 0;
 }
 
 .nav-link-color{
@@ -32,4 +33,37 @@
     list-style-type: none;
     display: flex;
     padding: 20px;
+    font-family: arial, sans-serif;
+    padding-right: 50px;
+}
+
+#NCEA-image{
+    display: flex;
+    width: 50%
+}
+
+#Main-content{
+    display: flex;
+    padding-right: 50px;
+}
+
+#Content-words{
+    padding-left: 30px;
+    width: 50%;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
+
+#Main-content2{
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.Content2{
+    font-family: arial, sans-serif;
+    font-size: 20px;
 }
